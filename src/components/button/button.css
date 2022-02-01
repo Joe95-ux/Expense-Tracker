@@ -1,0 +1,30 @@
+:root{
+    --text-primary:#000;
+    --bgPrimary:#fff;
+   --bgSecondary: #F9F9F9;
+   --pink: #0071bd;
+   --light-blue: #e6f7ff;
+   --border: #d9d9d9;
+}
+.button{
+    padding: 0.8rem;
+}
+.button, .submit-btn{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    color: var(--bgPrimary);
+    background-color: var(--pink);
+    border-radius: 55px;
+    transition: all 0.5s linear;
+    -webkit-transition:  all 0.5s linear;
+}
+.submit-btn{
+    padding: 0.5rem 0.8rem; 
+}
+.button:hover, .submit-btn:hover{
+    color: var(--pink);
+    background-color: var(--bgSecondary);
+    border: 1px solid var(--text-primary);
+}

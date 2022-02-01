@@ -1,0 +1,53 @@
+.wrapperInner {
+    display: flex;
+    height: 100vh;
+}
+
+.landing {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    text-align: center;
+}
+.landingInner{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+.landingInner img {
+    display: block;
+    max-width: 230px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+
+.landingInner h1 {
+    font-size: 1.7rem;
+}
+
+.landingInner p {
+    font-size: 1.2rem;
+    margin: 2rem 0 2rem;
+}
+.hr{
+    width: 5rem;
+    border: 2px solid grey !important;
+    border-radius: 5px;
+    margin: 0 auto 2rem !important;
+    align-self: center;
+}
+
+.cover {
+    flex-basis: 60%;
+    background-color: #E7E6EC;
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
